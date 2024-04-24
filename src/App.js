@@ -1,11 +1,18 @@
-import logo from "./logo.svg";
+import { MainPage } from "./pages/MainPage";
+import { LoginPage } from "./pages/LoginPage";
 import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
     return (
-        <div>
-            <h1>hello world!</h1>
-        </div>
+        <BrowserRouter>
+            <Routes>
+                {}
+                <Route path="/" element={<MainPage />}></Route>
+                {}
+                <Route path="/login" element={<LoginPage />}></Route>
+            </Routes>
+        </BrowserRouter>
     );
 }
 
