@@ -1,9 +1,7 @@
 const MainPage = () => {
     return (
-        <div>
-            <h1> hello world !</h1>
-        </div>
+        <div>hello world</div>
     );
-}
+};
 
-export {MainPage};
+export { MainPage };

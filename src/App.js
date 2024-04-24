@@ -1,5 +1,5 @@
 import { MainPage } from "./pages/MainPage";
-import { LoginPage } from "./pages/LoginPage";
+import { LoginPage } from "./pages/LoginSignPage";
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
